@@ -224,19 +224,6 @@ iframe{
 }
 
 
-.menu-navigation > li {
-	float:left;
-}
- 
- 
-.menu-navigation li ul {
-	display:none;
-}
-
-.menu-navigation li:hover > ul {
-	bakground-color: white;
-	display:block;
-}
 
 
 
