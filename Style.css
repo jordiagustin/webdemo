@@ -33,15 +33,15 @@ body{
 }
 .language{
 	line-height: 0px;
-	color:red;
 	text-align: top;
+	border-style: none;
 }
 
 .language:hover{
 	background-color: unset;
 }
 .language:focus{
-	border-top: none;
+	border-style: none;
 }
 
 
@@ -212,23 +212,11 @@ iframe{
 		background: rgb(39,52,105);
 		background: linear-gradient(180deg, rgba(39,52,105,1) 40%, rgba(255,255,255,1) 150%);
 	}
+	
+	.language:hover{
+		padding:0px;
+	}
 
-#language-header{
-	float: right;
-}
-.language{
-	line-height: 0px;
-	color:red;
-	text-align: top;
-}
-
-.language:hover{
-	background-color: unset;
-	padding: 0px;
-}
-.language:focus{
-	border-top: none;
-}
 	nav{
 		width:100%;
 		float: right;
@@ -249,7 +237,7 @@ iframe{
 				line-height: 70px;	
 			}
 				nav ul li a:hover{
-					padding: 20px;
+					padding: 5px 0;
 				}
 
 	#cookiesBox{
