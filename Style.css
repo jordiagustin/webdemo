@@ -38,7 +38,10 @@ body{
 }
 
 .language:hover{
-		background-color: unset;
+	background-color: unset;
+}
+.language:focus{
+	border-top: none;
 }
 
 
@@ -210,6 +213,22 @@ iframe{
 		background: linear-gradient(180deg, rgba(39,52,105,1) 40%, rgba(255,255,255,1) 150%);
 	}
 
+#language-header{
+	float: right;
+}
+.language{
+	line-height: 0px;
+	color:red;
+	text-align: top;
+}
+
+.language:hover{
+	background-color: unset;
+	padding: 0px;
+}
+.language:focus{
+	border-top: none;
+}
 	nav{
 		width:100%;
 		float: right;
