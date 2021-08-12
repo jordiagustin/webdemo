@@ -27,6 +27,21 @@ body{
 	font-size: 1.5em;
 }
 
+
+#language-header{
+	float: right;
+}
+.language{
+	line-height: 0px;
+	color:red;
+	text-align: top;
+}
+
+.language:hover{
+		background-color: unset;
+}
+
+
 nav{
 	float: right;
 }
@@ -59,6 +74,7 @@ nav{
 						color:#000000;
 						border-top: 1px solid rgb(39,52,105);
 					}
+
 #page-titles{
 	margin: 15px 0;
 	line-height: 1.3em;
