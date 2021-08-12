@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+﻿﻿<!DOCTYPE html>
 <html lang="ca">
 	<head>
 		<meta charset="utf-8" />
@@ -32,14 +32,18 @@
 	<body>
 		<header id="main-header">
 			<a id="logo-header" href="#">
-				<img src="images/Logo1.png" alt="logo">				
+				<picture>
+  					<source media="(max-width: 1000px" srcset="Images/Logo1-mob.png" alt="logo">
+  					<!--<source media="(min-width: 600px)" srcset="Images/Logo1.png" alt="logo">-->
+  					<img src="Images/Logo1.png" alt="logo">
+				</picture>
 			</a>
 		</header>
 
 		<header id="secondary-header">
 			<nav>
 				<div id="mobile-menu">
-				<ul>
+				<ul class="menu-navigation">
 					<li><a href="home.html" target="iframe-content">Inici</a></li>
 					<li><a href="about.html" target="iframe-content">Qui sóm</a></li>
 					<li><a href="service.html" target="iframe-content">Servei tècnic</a></li>	
