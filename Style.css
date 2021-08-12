@@ -226,7 +226,7 @@ iframe{
 	padding: 0px;
 }
 .language:focus{
-	border-top: none;
+	border-style: none;
 }
 	nav{
 		width:100%;
