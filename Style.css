@@ -40,7 +40,7 @@ nav{
 			display: inline-block;
 			margin-left: 10px;			
 			line-height: 40px;
-			5border-left: 1px solid rgba(39,52,105,1);
+	border-left: 1px solid rgba(39,52,105,1);
 			font-weight: bold;
 
 		}
@@ -209,7 +209,7 @@ iframe{
 				margin:0;
 				padding: 10px;
 				border-style: none;
-				border-bottom: 10px solid #ffffff;
+				border-bottom: 1px solid #ffffff;
 				font-size: 2.5em;	
 				line-height: 70px;	
 			}
@@ -223,6 +223,11 @@ iframe{
 	}
 }
 
+
+
+
+
+  
 
 
 
