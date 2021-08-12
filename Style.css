@@ -209,7 +209,7 @@ iframe{
 				margin:0;
 				padding: 10px;
 				border-style: none;
-				border-bottom: 1px solid #ffffff;
+				border-bottom: 10px solid #ffffff;
 				font-size: 2.5em;	
 				line-height: 70px;	
 			}
