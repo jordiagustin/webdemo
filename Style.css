@@ -40,18 +40,18 @@ nav{
 			display: inline-block;
 			margin-left: 10px;			
 			line-height: 40px;
-			5border-left: 1px solid rgba(39,52,105,1);
+			border-left: 1px solid rgba(39,52,105,1);
 			font-weight: bold;
 
 		}
 			nav ul li a{
 				display: block;
-				padding: 0 10px;
+				padding: 0 8.5px;
 				text-decoration: none;
 				color: #ffffff;
 			}
 				nav ul li a:hover{
-					width: auto;
+					width: 100%;
   					background-color: #f62d2d;
 				}
 					nav ul li a:focus{
@@ -222,10 +222,3 @@ iframe{
 		line-height: 70px;		
 	}
 }
-
-
-
-
-
-  
-
