@@ -73,6 +73,7 @@ nav{
   					background-color: #f62d2d;
 				}
 					nav ul li a:focus{
+						width: 100%;
 						background-color: #ffffff;
 						color:#000000;
 						border-top: 1px solid rgb(39,52,105);
